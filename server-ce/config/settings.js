@@ -470,4 +470,12 @@ http.globalAgent.maxSockets = 300
 const https = require('https')
 https.globalAgent.maxSockets = 300
 
+
+
+settings.overleafModuleImports = {
+  editorLeftMenuSync: [
+    'features/editor-left-menu/components/sync-github'
+  ]
+}
+
 module.exports = settings
